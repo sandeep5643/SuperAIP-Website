@@ -5,7 +5,7 @@ import Testimonial from "./Testimonial";
 // import GalaxyEffect1 from "./GalaxyEffect1";
 import GalaxyEffect1 from "./GalaxyEffect1"; 7
 import FlipCard from "./FlipCard";
-import FAQ from "./FAQ";
+import FAQ from "./Faq";
 import ModalCard from "./ModalCard";
 function Home() {
   return (

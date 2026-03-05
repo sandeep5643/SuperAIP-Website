@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import superAipLogo from "../assets/super_aip1.png";
 
 export default function Footer() {
   return (
@@ -12,7 +13,7 @@ export default function Footer() {
           {/* Logo + About */}
           <div>
             <img
-              src="src\assets\super_aip1.png"
+              src={superAipLogo}
               alt="SuperAIP Logo"
               className="w-32 mb-4"
             />
