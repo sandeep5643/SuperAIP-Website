@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/super_aip_logo.png';
 
 function Loader() {
 
@@ -6,7 +7,7 @@ function Loader() {
     <div>
         
         <div className='ring' >
-          <img src="./src/assets/super_aip_logo.png"/>
+          <img src={logo}/>
           <span className='span1'></span>
         </div>
        

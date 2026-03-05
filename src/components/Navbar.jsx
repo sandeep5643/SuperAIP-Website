@@ -12,6 +12,7 @@ import {
   SquaresPlusIcon,
   ArrowPathIcon,
 } from "@heroicons/react/24/outline";
+import logo from "../assets/super_aip1.png";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -38,7 +39,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <NavLink to="/">
-          <img src="/src/assets/super_aip1.png" alt="logo" className="w-28" />
+          <img src={logo} alt="logo" className="w-28" />
         </NavLink>
 
         {/* Desktop Menu */}

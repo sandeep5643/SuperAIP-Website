@@ -1,6 +1,6 @@
 import React from 'react'  
 import styles from "../components/Card.module.css";
-
+import roboticImage from "../assets/robotic.webp";
 
 function Cardsection() {
   return (
@@ -133,7 +133,7 @@ function Cardsection() {
         <div className='row'>
               <div className='col-lg-6 col-sm-12 col-md-12'>
                 <div className='card_image1'> 
-                    <img src="./src/assets/robotic.webp" className={styles.card} alt="Client 1" />
+                    <img src={roboticImage} className={styles.card} alt="Client 1" />
                 </div>
             </div>
              <div className='col-lg-6 col-sm-12 col-md-12'>
