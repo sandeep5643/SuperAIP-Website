@@ -1,0 +1,38 @@
+.partnersection{
+    background-color: #ffffff; 
+    padding: 60px 20px;
+}
+.partnersection h2{ 
+    background: linear-gradient(90deg, #0D1C4F 40%, #5368B5);
+    background-clip: text;
+    color: #fff0;
+    color: rgb(19, 41, 118);
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: lighter;
+        
+}
+.partnersection p{ 
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    line-height: 1.6;
+        
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.product-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}

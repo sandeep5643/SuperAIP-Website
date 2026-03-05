@@ -1,0 +1,60 @@
+ 
+
+.secondSection {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.heading {
+  color: rgb(19, 41, 118);
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.tabContent {
+  background: #fff;
+  border-radius: 24px;
+  padding: 60px 40px;
+  box-shadow: rgb(197, 205, 231) 0px 0px 4px 0px;
+}
+
+.tabButton {
+  font-size: 22px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 24px;
+  background: #e5e5e5;
+  padding: 25px 21px;
+  transition: all 0.3s ease;
+}
+
+.tabButton:hover {
+  background: rgb(25, 54, 157);
+  color: white;
+}
+
+.activeTab {
+  background: rgb(25, 54, 157);
+  color: white;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+ 
+.TABBTNS{
+    margin-top: 30px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+ .TABBTNS{
+    margin-top: 30px;
+}
+}

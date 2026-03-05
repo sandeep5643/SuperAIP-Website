@@ -1,0 +1,21 @@
+.slick-slide h3{ 
+    background-clip: text; 
+    margin-bottom: 10px; 
+    font-weight: lighter; 
+        color: #132976;
+    font-size: 30px; 
+    line-height: 35px;
+}
+.testimonial_section h2{
+     background: linear-gradient(90deg, #0D1C4F 40%, #5368B5);
+    background-clip: text;
+    color: #fff0;
+    color: rgb(19, 41, 118);
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+ 
+.slick-slide.slick-active.slick-current{
+    width: 725px;
+}
